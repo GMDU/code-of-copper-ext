@@ -1,0 +1,3 @@
+data modify storage bot:api/interpreter/function register.target set value [{name: ["e","x","e","c"], id: "exec", args: [{type: "string", multiple: true}]},{name: ["t","p"], id: "tp", args: [{type: ["integer", "string"]},{type: ["integer", "string"]},{type: ["integer", "string"]}]},{name: ["s","e","t","b","l","o","c","k"], id: "setblock", args: [{type: "resource"},{type: ["integer", "string"]},{type: ["integer", "string"]},{type: ["integer", "string"]}]},{name: ["s","c","o","r","e"], id: "score", args: [{type: "string"},{type: "string", optional: true}]},{name: ["s","c","o","r","e","s","e","t"], id: "scoreset", args: [{type: "string"}, {type: "integer"},{type: "string", optional: true}]}]
+
+function bot:api/interpreter/function/register

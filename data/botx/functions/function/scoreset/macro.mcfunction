@@ -1,0 +1,1 @@
+$execute store result storage bot:api/interpreter/function execute.return.value int 1 run scoreboard players set $(selector) $(scoreboard) $(amount)
