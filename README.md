@@ -57,3 +57,22 @@ Returns the score set.
 scoreset("myscoreboard", 8) # Sets @p to a score of 8 on scoreboard myscoreboard
 scoreset("myotherscoreboard", 123, "Gears_YT") # Sets Gears_YT to a score of 123 on scoreboard myotherscoreboard
 ```
+
+### Rule
+Returns the value of the given gamerule as an integer.
+If a value is given as a second argument, it sets the gamerule as such.
+Accepts either a string, integer or boolean as second value.
+
+```ruby
+rule("keepInventory") # Returns the value of gamerule keepInventory (0 if false, 1 if true)
+rule("doFireTick", false) # Sets the gamerule doFireTick to false, returns 0
+rule("randomTickSpeed", 5) # Sets the gamerule randomTickSpeed to 5, returns 5
+```
+
+### Run
+Runs a function given as a resource, and returns the value the function returns.
+
+```ruby
+run(:foo) # Runs function minecraft:foo, returning what the function returns
+run(code:bar) # Runs function code:bar, returning what the function returns
+```
