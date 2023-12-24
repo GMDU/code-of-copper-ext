@@ -8,3 +8,4 @@ execute if data storage bot:api/interpreter/function execute.signature{id:"setbl
 execute if data storage bot:api/interpreter/function execute.signature{id:"score"} run function botx:function/score/init
 execute if data storage bot:api/interpreter/function execute.signature{id:"scoreset"} run function botx:function/scoreset/init
 execute if data storage bot:api/interpreter/function execute.signature{id:"rule"} run function botx:function/rule/init
+execute if data storage bot:api/interpreter/function execute.signature{id:"run"} run function botx:function/run/init
